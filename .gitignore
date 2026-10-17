@@ -1,0 +1,8 @@
+key.pem
+cert.pem
+*.pem
+*.db
+*.pyc
+__pycache__/
+secrets.h
+.env

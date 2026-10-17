@@ -5,7 +5,7 @@ from datetime import datetime
 from database import init_db, get_db, hash_password
 
 app = Flask(__name__)
-app.secret_key = "smartbin_secret_2024"
+app.secret_key = "secret_key"
 
 # ─────────────────────────────────────────────
 # HELPERS

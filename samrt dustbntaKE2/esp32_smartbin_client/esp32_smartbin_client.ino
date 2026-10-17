@@ -30,11 +30,11 @@
 #define LED_PIN 23
 
 // ================= WIFI & SERVER =================
-const char* WIFI_SSID     = "12345";
-const char* WIFI_PASSWORD = "12345678";
+const char* WIFI_SSID     = "YOUR_WIFI_SSID";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
 // ================= CONFIGURABLE PARAMS =================
-String flaskIP = "10.33.17.112"; // IP of Laptop running Flask
+String flaskIP = "YOUR_SERVER_IP"; // IP of Laptop running Flask
 int flaskPort = 5000;
 int BIN_ID = 1;
 
